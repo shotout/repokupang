@@ -75,7 +75,7 @@ const routes = [{
         children: [{
                 path: "/",
                 component: Homepage,
-                name: "Homepage",
+                name: "root",
             },
             {
                 path: "/home",
@@ -143,7 +143,7 @@ const routes = [{
             {
                 path: "/all-submission/:keySearch",
                 component: AllSubmissions,
-                name: "AllSubmissions",
+                name: "AllSubmissionsdetail",
                 props: true,
             },
             {
