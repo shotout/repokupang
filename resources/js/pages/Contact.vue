@@ -23,13 +23,10 @@
 </template>
 
 <script>
-import pdf from "vue-pdf";
-// import "pdfjs-dist/build/pdf.worker.entry";
+
 
 export default {
-  components: {
-    pdf,
-  },
+
  
   data() {
     return {

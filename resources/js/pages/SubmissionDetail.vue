@@ -380,12 +380,9 @@
 </style>
 
 <script>
-import pdf from "vue-pdf";
 
 export default {
-  components: {
-    pdf,
-  },
+
   props: ["id"],
   data() {
     return {

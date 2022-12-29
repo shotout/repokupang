@@ -1,22 +1,13 @@
 <template>
-  <div>
-  
-   
-                      <pdfold :src="getSrc"></pdfold>
-                  
-  
-  </div>
+  <div></div>
 </template>
 
 <script>
 import pdfvuer from "pdfvuer";
-import pdf from "vue-pdf";
-// import 'pdfjs-dist/build/pdf.worker.entry' // not needed since v1.9.1
 
 export default {
   components: {
     pdf: pdfvuer,
-    pdfold: pdf,
   },
   data() {
     return {
