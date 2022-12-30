@@ -22,10 +22,10 @@
   <div id="app">
     <router-view></router-view>
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="{{ asset('js/app.js')}}"></script>
-  <!-- Bootstrap core JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <!-- <script src="{{ asset('admin-template/vendor/jquery/jquery.min.js')}}"></script> -->
+  <!-- Bootstrap core JavaScript-->
   <script src="{{ asset('admin-template/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
   <!-- Core plugin JavaScript-->
